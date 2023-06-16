@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser =  require('body-parser')
 const multer=require('multer');
-const studentRoutes = require('./routes.js/studentRoute');
+const studentRoutes = require('./routes/studentRoute');
 const { default: mongoose } = require('mongoose');
 
 
